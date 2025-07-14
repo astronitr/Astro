@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.telescope {
+    display: flex;
+    /* justify-content: end; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    /* height: 100vh; */
+    /* transform: translate(50%, 50%); */
+}
+
+@font-face {
+    font-family: "Anxiety";
+    src: local("Anxiety"),
+        url("../Font/Anxiety.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Solaris";
+    src: local("Solaris"),
+        url("../Font/Solaris.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cosi";
+    src: local("Cosi"),
+        url("../Font/Cosi.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ExodusDemo-Sharpen";
+    src: local("ExodusDemo-Sharpen"),
+        url("../Font/ExodusDemo-Sharpen.otf") format("opentype"),;
+}
+
+@font-face {
+    font-family: "ethnocentric";
+    src: local("ethnocentric"),
+        url("../Font/ethnocentric.otf") format("opentype"),;
+}
+
+@media (max-width: 767px) {
+    .txt {
+        font-size: 2.15vw !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .title {
+        font-size: 4.5vw !important;
+    }
+}
+
+#bg-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 90vh;
+    z-index: 990;
+}
+
+.tab {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;
+    top: 9vh;
+}
+
+.hed {
+    font-family: cosi, sans-serif;
+}
+
+.txting {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+}
+
+.txt {
+    font-size: 1.05vw;
+}
+
+.wid1 {
+    width: 70%;
+}
+
+.wid {
+    width: 28%;
+}
+
+/* .title {
+    font-weight: 100!important;
+    font-size: 20px !important;
+} */

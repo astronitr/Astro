@@ -1,0 +1,37 @@
+/* .navbar {
+    width: 70%;
+} */
+
+@font-face {
+    font-family: "penna";
+    src: local("penna"),
+        url("../Font/penna.otf") format("opentype"),;
+}
+
+@font-face {
+    font-family: "Diastema";
+    src: local("Diastema"),
+        url("../Font/Diastema.ttf") format("truetype"),;
+}
+
+@font-face {
+    font-family: "noah-regular";
+    src: local("noah-regular"),
+        url("../Font/noah-regular.otf") format("opentype"),;
+}
+
+@font-face {
+    font-family: "IvyMode-Light";
+    src: local("IvyMode-Light"),
+        url("../Font/IvyMode-Light.ttf") format("truetype"),;
+}
+
+.txt1 {
+    font-family: 'penna';
+    font-weight: 500;
+}
+
+.txt2 {
+    font-weight: 100;
+    font-family: 'IvyMode-Light', sans-serif;
+}
